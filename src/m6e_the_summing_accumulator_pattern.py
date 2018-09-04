@@ -2,8 +2,8 @@
 This module lets you study the ACCUMULATOR pattern for SUMMING.
 
 Authors: Many, many people over many, many years.
-         David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         and their colleagues wrote this version.
+         David Mutchler, Vibha Alangar, Dave Fisher, Mark Hays,
+         Amanda Stouder, and their colleagues wrote this version.
 """
 # ----------------------------------------------------------------------
 # Students: Read and run this program.  Just use it as an example.

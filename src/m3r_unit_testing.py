@@ -3,8 +3,8 @@ This module helps you understand:
   -- UNIT TESTING.
   -- the difference between PRINT and RETURN
 
-Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Mark Hays,
-    Amanda Stouder, and their colleagues.
+Authors: David Mutchler, Dave Fisher, Vibha Alangar, Mark Hays, Amanda Stouder,
+         their colleagues and PUT_YOUR_NAME_HERE.
 """
 ###############################################################################
 #
