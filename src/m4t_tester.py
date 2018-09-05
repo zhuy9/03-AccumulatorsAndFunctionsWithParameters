@@ -10,7 +10,7 @@ Authors: Mark Hays and others.
 # Tt is intended only as a way to check your code.
 ##############################################################
 
-import m3_calling_functions_returning_values as m3
+import m4_calling_functions_returning_values as m4
 import sys
 from io import StringIO
 
@@ -39,7 +39,7 @@ def run_test_sum_of_digits():
     testCases.addTestCase([826], 16, "", [826])
     testCases.addTestCase([83135], 20, "", [83135])
     testCases.addTestCase([1000000], 1, "", [1000000])
-    runTestOnMethod(m3.sum_of_digits, testCases, "sum_of_digits")
+    runTestOnMethod(m4.sum_of_digits, testCases, "sum_of_digits")
 
 
 def run_test_digits_in_cube():
@@ -53,7 +53,7 @@ def run_test_digits_in_cube():
     testCases.addTestCase([12], 18, "", [12])
     testCases.addTestCase([255], 36, "", [255])
     testCases.addTestCase([10000], 1, "", [10000])
-    runTestOnMethod(m3.digits_in_cube, testCases, "digits_in_cube")
+    runTestOnMethod(m4.digits_in_cube, testCases, "digits_in_cube")
 
 
 def run_test_digits_in_power():
@@ -67,7 +67,7 @@ def run_test_digits_in_power():
     testCases.addTestCase([255, 3], 36, "", [255, 3])
     testCases.addTestCase([2, 10], 7, "", [2, 10])
     testCases.addTestCase([1, 10000], 1, "", [1, 10000])
-    runTestOnMethod(m3.digits_in_power, testCases, "digits_in_power")
+    runTestOnMethod(m4.digits_in_power, testCases, "digits_in_power")
 
 
 def run_test_fancy_sums_of_digits():
@@ -80,7 +80,7 @@ def run_test_fancy_sums_of_digits():
     testCases.addTestCase([10], 1, "", [10])
     testCases.addTestCase([2], 19084, "", [2])
     testCases.addTestCase([35], 124309, "", [35])
-    runTestOnMethod(m3.fancy_sums_of_digits, testCases,
+    runTestOnMethod(m4.fancy_sums_of_digits, testCases,
                     "fancy_sums_of_digits")
 
 
