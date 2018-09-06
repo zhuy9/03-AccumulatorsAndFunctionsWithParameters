@@ -34,12 +34,12 @@ def run_test_sum_cosines():
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
     # Test 2:
-    expected = 124309
+    expected = -0.51948
     answer = sum_cosines(4)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
     # Test 3:
-    expected = 40639
+    expected = 0.724351
     answer = sum_cosines(6)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
@@ -63,16 +63,15 @@ def sum_cosines(n):
     #   No fair running the code of  sum_cosines  to GENERATE
     #   test cases; that would defeat the purpose of TESTING!
     # ------------------------------------------------------------------
+    sum = 0
     for k in range(n+1):
-        sum = 0
         sum = sum + math.cos(k)
     return sum
-
 
 def run_test_sum_square_roots():
     """ Tests the   sum_square_roots   function. """
     # ------------------------------------------------------------------
-    # TODO: 4. Implement this function.
+    # DONE: 4. Implement this function.
     #   It TESTS the  sum_square_roots  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -83,7 +82,21 @@ def run_test_sum_square_roots():
     print('--------------------------------------------------')
     print('Testing the   sum_square_roots   function:')
     print('--------------------------------------------------')
-
+    # Test 1:
+    expected = 11.854408
+    answer = sum_square_roots(5)
+    print('Test 1 expected:', expected)
+    print('       actual:  ', answer)
+    # Test 2:
+    expected = 8.69213
+    answer = sum_square_roots(4)
+    print('Test 2 expected:', expected)
+    print('       actual:  ', answer)
+    # Test 3:
+    expected = 15.318509
+    answer = sum_square_roots(6)
+    print('Test 3 expected:', expected)
+    print('       actual:  ', answer)
 
 def sum_square_roots(n):
     """
@@ -98,8 +111,13 @@ def sum_square_roots(n):
          sqrt(2) + sqrt(4) + sqrt(6) + sqrt(8) + sqrt(10),
       which is about 11.854408.
     """
+    res = 0
+    for j in range(n):
+        res = res + math.sqrt(2*j + 2)
+    return res
+
     # ------------------------------------------------------------------
-    # TODO: 5. Implement and test this function.
+    # DONE: 5. Implement and test this function.
     #   Note that you should write its TEST function first (above).
     #   That is called TEST-DRIVEN DEVELOPMENT (TDD).
     #
