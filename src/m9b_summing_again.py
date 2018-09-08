@@ -30,7 +30,7 @@ def run_test_sum_powers():
     print('--------------------------------------------------')
     # Test 1:
     expected = 1
-    answer = sum_powers(1,2)
+    answer = sum_powers(1, 2)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
     # Test 2:

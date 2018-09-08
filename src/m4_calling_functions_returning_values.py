@@ -21,7 +21,7 @@ def main():
     run_test_fancy_sums_of_digits()
 
     # ------------------------------------------------------------------
-    # TODO: 9. DO THIS LAST!
+    # DONE: 9. DO THIS LAST!
     #    -- Uncomment the line of code below to run the main function
     #         in m4t_tester.py (do not make changes to it).
     #         It runs OUR tests on your code.
@@ -214,17 +214,17 @@ def run_test_digits_in_power():
     print('--------------------------------------------------')
     # Test 1:
     expected = 1
-    answer = digits_in_power(1,2)
+    answer = digits_in_power(1, 2)
     print('Test 1 expected:', expected)
     print('       actual:  ', answer)
     # Test 2:
     expected = 7
-    answer = digits_in_power(2,4)
+    answer = digits_in_power(2, 4)
     print('Test 2 expected:', expected)
     print('       actual:  ', answer)
     # Test 3:
     expected = 9
-    answer = digits_in_power(3,4)
+    answer = digits_in_power(3, 4)
     print('Test 3 expected:', expected)
     print('       actual:  ', answer)
 

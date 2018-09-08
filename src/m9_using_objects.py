@@ -29,10 +29,10 @@ def two_circles():
            -- One is filled with some color and one is not filled.
     -- Waits for the user to press the mouse, then closes the window.
     """
-    window = rg.RoseWindow(500,500)
-    circle1 = rg.Circle(rg.Point(200,150),50)
-    circle1.fill_color ="indian red"
-    circle2 = rg.Circle(rg.Point(350,200),75)
+    window = rg.RoseWindow(500, 500)
+    circle1 = rg.Circle(rg.Point(200, 150), 50)
+    circle1.fill_color = "indian red"
+    circle2 = rg.Circle(rg.Point(350, 200), 75)
     circle1.attach_to(window)
     circle2.attach_to(window)
 
@@ -80,7 +80,7 @@ def circle_and_rectangle():
            150.0
     """
     window = rg.RoseWindow(300, 300)
-    circle = rg.Circle(rg.Point(180, 115),50)
+    circle = rg.Circle(rg.Point(180, 115), 50)
     circle.fill_color = "blue"
     print('--------------------------------------------------')
     print('Circle and Rectangle')
@@ -90,7 +90,7 @@ def circle_and_rectangle():
     print(circle.center)
     print(circle.center.x)
     print(circle.center.y)
-    rectangle = rg.Rectangle(rg.Point(25, 100),rg.Point(125,200))
+    rectangle = rg.Rectangle(rg.Point(25, 100), rg.Point(125, 200))
     print(rectangle.outline_thickness)
     print(rectangle.fill_color)
     print(rectangle.get_center())
@@ -135,8 +135,8 @@ def lines():
 
     -- Waits for the user to press the mouse, then closes the window.
     """
-    window = rg.RoseWindow(300,300)
-    line1 = rg.Line(rg.Point(100,100),rg.Point(121,200))
+    window = rg.RoseWindow(300, 300)
+    line1 = rg.Line(rg.Point(100, 100), rg.Point(121, 200))
     line1.thickness = 4
     print('--------------------------------------------------')
     print('Lines')
@@ -144,7 +144,7 @@ def lines():
     print(line1.get_midpoint())
     print(line1.get_midpoint().x)
     print(line1.get_midpoint().y)
-    line2 = rg.Line(rg.Point(150,150),rg.Point(230,220))
+    line2 = rg.Line(rg.Point(150, 150), rg.Point(230, 220))
     line1.attach_to(window)
     line2.attach_to(window)
 
