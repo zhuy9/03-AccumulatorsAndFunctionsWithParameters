@@ -18,7 +18,7 @@ def main():
     print(print_sequence1())
     print(draw_circles1())
     print(print_sequence2())
-
+    print(draw_circles2())
 def print_sequence1():
     """
     Prints:
@@ -61,11 +61,10 @@ def draw_circles1():
     print('Running draw_circles1:  See graphics window')
     print('--------------------------------------------------')
     window = rg.RoseWindow(400, 400)
-
     for k in range(0, 21):
         circle = rg.Circle(rg.Point(200, 200), k*10)
         circle.attach_to(window)
-    window.render(1)
+    window.render()
     window.close_on_mouse_click()
 
 
@@ -113,9 +112,11 @@ def draw_circles2():
     print('--------------------------------------------------')
     window = rg.RoseWindow(400,400)
     for j in range(18):
-        turtle.pen_up()
-        turtle.go_to(rg.Point(j*20,100))
-
+        circle = rg.Circle(rg.Point(50+j*20, 100), 10)
+        circle.fill_color = "blue"
+        circle.attach_to(window)
+    window.render()
+    window.close_on_mouse_click()
 
 
 def print_sequence3():
